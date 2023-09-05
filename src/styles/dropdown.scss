@@ -1,0 +1,22 @@
+.dropdown-container {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 5px;
+    transform: translateY(105%);
+}
+
+.dropdown-open {
+   display: block;
+}
+
+.dropdown-close {
+    display: none;
+}
+
+.dropdown-item {
+    display: flex;
+}

@@ -1,0 +1,19 @@
+.slider-parent {
+  height: 40px;
+  position: relative;
+  display: flex;
+}
+.slider-move {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: left 300ms ease-in;
+}
+
+.slider-child {
+  width: 60px;
+  height: 40px;
+  opacity: 0;
+}
